@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    color: #000;
+    font-size: 1rem;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title-h2 {
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin-bottom: 35px;
+    letter-spacing: 2.5px;
+}
+
+.text {
+    margin-bottom: 25px;
+}
+
+.blue {
+    color: rgb(41, 162, 199);
+}
+
+.submitedBtn {
+    background: rgba(185, 185, 185, 0.300);
+    color: #000;
+    padding: 15px 15px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s linear;
+}
+
+.submitedBtn:hover {
+    background: rgba(196, 194, 194, 0.9);
+}
+
+#contact {
+    padding: 70px;
+    min-height: 100vh;
+}
+
+#contact>div form {
+    width: 100%;
+}
+
+#contact>div form .formGroup {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+#contact>div form .formGroup .formControl {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+#contact>div form .formGroup .formControl:focus {
+    outline: none;
+}
